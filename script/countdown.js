@@ -46,3 +46,24 @@
       //seconds
     }, 0);
 })();
+
+var playMusic = document.getElementById("music_source");
+var isPlaying = false;
+
+function toggleMusic() {
+  isPlaying ? playMusic.pause() : playMusic.play();
+}
+
+playMusic.onplaying = function () {
+  isPlaying = true;
+};
+playMusic.onpause = function () {
+  isPlaying = false;
+};
+
+function noneCover() {
+  document.getElementById("cover").style.display = "none";
+  document.body.style.overflow = "auto";
+  document.body.style.height = "100%";
+  playMusic.play();
+}

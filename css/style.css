@@ -22720,6 +22720,35 @@ svg polygon[data-v-26bb5912] {
   height: 2373.86px;
 }
 
+#footer[data-v-26bb5912] {
+  padding: 1rem 5rem;
+}
+#footer .contact[data-v-26bb5912] {
+  font-size: 14px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+#rundown .acaraWrapper.tigaacara .acaraList .acara.akad[data-v-26bb5912] {
+  left: 0;
+}
+#rundown
+  .acaraWrapper
+  .image
+  .photoWrapper.first
+  .rb-object-frame
+  .orb-obj-1[data-v-26bb5912] {
+  width: 80%;
+}
+
+#cover[data-v-26bb5912] {
+  display: block;
+}
+
+body {
+  overflow: hidden;
+  height: 100vh;
+}
+
 @media all and (max-width: 600px) {
   h1[data-v-26bb5912] {
     font-size: 62px !important;
@@ -22748,65 +22777,117 @@ svg polygon[data-v-26bb5912] {
   }
   #galleries .photos .item:nth-child(3) {
     position: relative;
-    /* left: 53.5993%;
-    top: 175px;
-    transform: translate3d(0px, -597px, 0px); */
+    left: 0;
+    top: 0;
+    transform: none;
+  }
+  #galleries .photos .item:nth-child(4) {
+    position: relative;
+    left: 0%;
+    top: 0;
+    transform: none;
   }
   #galleries .photos .item:nth-child(5) {
     position: relative;
-    /* left: 0;
-    top: 549px;
-    transform: translate3d(0px, -678px, 0px); */
+    left: 0;
+    top: 0;
+    transform: none;
   }
   #galleries .photos .item:nth-child(6) {
     position: relative;
-    /* left: 47%;
-    top: 380px;
-    transform: translate3d(0px, -604px, 0px); */
+    left: 0;
+    top: 0;
+    transform: none;
   }
   #galleries .photos .item:nth-child(7) {
     position: relative;
-    /* left: 25%;
-    top: 740px;
-    transform: translate3d(0px, -611px, 0px); */
+    left: 0;
+    top: 0;
+    transform: none;
   }
   #galleries .photos .item:nth-child(9) {
     position: relative;
-    /* left: 0%;
-    top: 900px;
-    transform: translate3d(0px, -675px, 0px); */
+    left: 0%;
+    top: 0;
+    transform: none;
   }
   #galleries .photos .item:nth-child(8) {
     position: relative;
-    /* left: 50%;
-    top: 920px;
-    transform: translate3d(0px, -638px, 0px); */
+    left: 0;
+    top: 0;
+    transform: none;
   }
   #galleries .photos .item:nth-child(10) {
     position: relative;
-    /* left: 0%;
-    top: 1105px;
-    transform: translate3d(0px, -742px, 0px); */
+    left: 0%;
+    top: 0;
+    transform: none;
   }
   #galleries .photos .item:nth-child(11) {
     position: relative;
-    /* left: 50%;
-    top: 1150px;
-    transform: translate3d(0px, -822px, 0px); */
+    left: 0;
+    top: 0;
+    transform: none;
   }
   #galleries .photos .item:nth-child(12) {
     position: relative;
-    /* left: 0;
-    top: 1315px;
-    transform: translate3d(0px, -772px, 0px); */
+    left: 0;
+    top: 0;
+    transform: none;
   }
   #galleries .photos .item:nth-child(13) {
     position: relative;
-    /* left: 50%;
-    top: 1350px;
-    transform: translate3d(0px, -944px, 0px); */
+    left: 0;
+    top: 0;
+    transform: none;
   }
   .gallery-grid.wrapper-rellax {
-    height: 1550px;
+    height: 100%;
+  }
+  #galleries .container-fluid .photos .gallery-grid .item[data-v-26bb5912] {
+    width: 100%;
+  }
+  #galleries
+    .container-fluid
+    .photos
+    .gallery-grid
+    .item.movequote2
+    p[data-v-26bb5912] {
+    font-size: 24px;
+  }
+  #rundown
+    .acaraWrapper
+    .image
+    .photoWrapper.first
+    .rb-object-frame
+    .orb-obj-1[data-v-26bb5912] {
+    width: 80%;
+  }
+  #closing .closing-wrapper .closing-words[data-v-26bb5912] {
+    justify-content: center;
+    padding: 1rem;
+    top: 50px;
+    width: 100%;
+  }
+  #closing .closing-wrapper .closing-words p[data-v-26bb5912] {
+    font-size: 22px;
+    margin-bottom: 1rem;
+  }
+  #closing .closing-wrapper .closing-words ul[data-v-26bb5912] {
+    font-size: 18px;
+    margin-bottom: 1rem;
+  }
+  #closing .closing-wrapper .closing-words h1[data-v-26bb5912] {
+    font-size: 115px !important;
+  }
+  #closing .closing-wrapper .closing-words h1 .and[data-v-26bb5912] {
+    font-size: 23px;
+    left: -53px;
+  }
+  #closing[data-v-26bb5912] {
+    width: 100%;
+  }
+  #closing .closing-wrapper .rb-object-frame .orb-photo-frame[data-v-26bb5912] {
+    padding-bottom: 185%;
   }
 }
